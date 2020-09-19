@@ -82,9 +82,7 @@ a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
-    color: #6633ff;
-}
+
 
 /* Navigation Styles */
 .main-nav {
@@ -313,7 +311,7 @@ a:hover {
   width: 350px;
   height: 400px;
   margin: 30px;
-  padding: 50px 40px 40px;
+  padding: 30px;
   max-width: 500px;
   text-align: left;
   background: #fff;
@@ -333,10 +331,26 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
 	gap:20px;
-	/* justify-content: center; */
-	/* padding-bottom: 50px; */
+	justify-content: center;
+	padding-bottom: 50px;
 }
 
+.project-title {
+	color: black;
+	text-align: center;
+	padding: 0 5px 5px 5px;
+}
+
+.profolio-img {
+	margin-bottom: 40px;
+}
+.repo-btn ,
+.preview-btn {
+	padding: 10px;
+	color:var(--secondaryText);
+	background-color: var(--mainColor);
+	border-radius: 5px;
+}
 
 /* Contact form */
 #contact-form{
