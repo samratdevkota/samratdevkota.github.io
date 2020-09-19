@@ -479,5 +479,12 @@ a.social:hover {
 
 	}
 
+	* {
+		font-size: 0.9em;
+	}
+	.card {
+		max-width: 300px;
+		margin: auto;
+	}
 }
 
