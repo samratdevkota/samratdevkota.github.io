@@ -61,10 +61,7 @@ h5 { font-size: 20px;}
 h6 { font-size: 16px;}
 
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+	text-align: center;
   color: #222;
 }
 .s1{
@@ -291,7 +288,6 @@ a:hover {
 
 /* skills */
 .skills {
-  margin-bottom: 40px;
   width: 100%;
   padding:1em;
 }
@@ -300,6 +296,8 @@ a:hover {
 }
 .skills ul{
   margin-left: 1em;
+  padding: 0;
+  margin-left: 0;
 }
 .skills li{
   padding: 1em;
@@ -350,6 +348,7 @@ a:hover {
 	border-radius: 5px;
 	background-color: var(--mainColor);
 	margin-bottom: 50px;
+	text-align: left;
 
 }
 
@@ -390,7 +389,7 @@ a:hover {
 footer {
     width: 100%;
     min-height: 30px;
-    padding: 20px 0 40px 20px;
+	padding: 20px 0 40px 20px;
 }
 
 footer .copyright {
@@ -439,29 +438,15 @@ a.social:hover {
 
 
 
+/* Media Quries*/
 
 
-
-
-
-
-
-/* Styles for larger screen */
-@media screen and (min-width:720px){
-    .nav {
-        max-width: 1200px;
-        padding: 0 30px;
-    }
-
-    footer {
-        font-size: 1.3em;
-        max-width: 1200px;
-        margin: 40px auto;
-    }
-}
 @media screen and (max-width: 1200px){
 	.main-container{
 		width: 95%;
+	}
+	footer {
+		font-size: 1.3em;
 	}
 }
 
@@ -495,3 +480,4 @@ a.social:hover {
 	}
 
 }
+
