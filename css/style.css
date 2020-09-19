@@ -199,6 +199,8 @@ a {
 
 .theme-dot:hover{
 	border-width: 5px;
+	width: 35px;
+	height: 35px;
 }
 
 
